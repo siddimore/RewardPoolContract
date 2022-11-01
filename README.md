@@ -1,21 +1,17 @@
-# RewardPool contract:- Contract inspired from MasterChef
-
+# RewardPool contract: 
 This RewardPool contract supports following tokens:
 
 1. Fungible Token
 2. Nonfungible Soulbound token aka Non Transferrable tokens
 
-# FungibleToken RewardPools:-
+# FungibleToken RewardPools
 For Fungible Tokens user is expected to deposit their collateral in the Reward Pool contract and get Rewarded for adding Liquidity, Reward pool will divy up the finite rewards as a function of time and contributed collateral
 
-# NonFungible SoulboundToken RewardPools:-
+# NonFungible SoulboundToken RewardPool
 For NonFungible Tokens user is expected to purchase an NonTransferrable NFT which opens the RewardPool and get Rewarded for buying token, Reward pool will divy up the finite rewards as a function of time and contributed collateral
 
-This project demonstrates an advanced Hardhat use case, integrating other tools commonly used alongside Hardhat in the ecosystem.
 
-The project comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts. It also comes with a variety of other tools, preconfigured to work with the project code.
-
-Try running some of the following tasks:
+# Try running some of the following tasks:
 
 ```shell
 npx hardhat accounts
